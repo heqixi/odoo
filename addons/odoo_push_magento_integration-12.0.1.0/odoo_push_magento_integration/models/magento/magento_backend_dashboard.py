@@ -4,6 +4,7 @@ from odoo import models, fields, api
 
 
 class MagentoBackendDashboard(models.Model):
+    print("MagentoBackendDashboardc create")
     _inherit = "magento.backend"
     #tesing
 
